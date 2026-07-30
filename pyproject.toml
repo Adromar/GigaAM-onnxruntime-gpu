@@ -35,9 +35,9 @@ longform = [
     "numba>=0.62",
     "pyannote.audio==4.0.*",
     "pyarrow>=23",
-    "torch==2.10.*",
-    "torchaudio==2.10.*",
-    "torchcodec==0.10",
+    "torch>=2.10",
+    "torchaudio>=2.10",
+    "torchcodec>=0.10",
     "transformers==5.*",
 ]
 train = [
